@@ -14,3 +14,9 @@ app.config['MYSQL_DB'] = 'advance'
 
 
 mysql = MySQL(app)
+
+
+@app.route('/index')
+def index():
+    
+    
